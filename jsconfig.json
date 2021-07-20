@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "target": "es6",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "paths": {
+      "@test-redux": ["./src/redux/index"],
+      "@test-redux/*":["./src/redux/*"],
+      "@test-navigator":["./src/navigator/index"],
+      "@test-navigator/*":["./src/navigator/*"],
+      "@test-component-container": ["./src/components/container/index"],
+      "@test-component-container/*": ["./src/components/container/*"],
+      "@test-screens":["./src/screens/index"],
+      "@test-screens/*":["./src/screens/*"]
+    }
+  }
+}

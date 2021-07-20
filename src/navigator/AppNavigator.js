@@ -20,6 +20,14 @@ export default class AppNavigator extends React.Component {
           headerShown: false,
         },
       },
+      Camera: {
+        options: {
+          title: '',
+          headerStyle: {
+            backgroundColor: 'transparent',
+          },
+        },
+      },
     };
   }
 

@@ -17,7 +17,10 @@ export default class Main extends React.Component {
             />
           </View>
           <View style={Styles.button}>
-            <Button title="Camera test" />
+            <Button
+              onPress={() => navigation.navigate('Camera')}
+              title="Camera test"
+            />
           </View>
           <View style={Styles.button}>
             <Button

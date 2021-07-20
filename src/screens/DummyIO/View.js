@@ -10,13 +10,6 @@ import {
 import {Base, Padder} from '@test-component-container';
 import Styles from './styles';
 
-const DATA = Array.from(Array(20)).map((i, index) => ({
-  id: index.toString(),
-  firstName: 'Test',
-  lastName: 'test',
-  email: 'test@gmail.com',
-}));
-
 export default class DummmyIO extends React.Component {
   constructor(props) {
     super(props);

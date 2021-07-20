@@ -44,6 +44,7 @@ export default class InputPicker extends React.Component {
         <TouchableOpacity
           style={[Styles.select.container, !enable ? Styles.disableStyle : {}]}>
           <Picker
+            mode="dropdown"
             enabled={enable}
             selectedValue={selectedData}
             onValueChange={onSelect}

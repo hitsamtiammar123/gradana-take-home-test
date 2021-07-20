@@ -23,7 +23,10 @@ export default class Main extends React.Component {
             <Button title="GPS test" />
           </View>
           <View style={Styles.button}>
-            <Button title="Dropdown test" />
+            <Button
+              onPress={() => navigation.navigate('Dropdown')}
+              title="Dropdown test"
+            />
           </View>
         </Padder>
       </Base>

@@ -1,11 +1,11 @@
-import {createStore} from 'redux';
+import {createStore, applyMiddleware, combineReducers} from 'redux';
+import dropdownReducer from './dropdown/dropDownReducer';
+import thunk from 'redux-thunk';
 
-const initialStates = {};
+const reducers = combineReducers({
+  dropdown: dropdownReducer,
+});
 
-function reducer(state = initialStates) {
-  return state;
-}
-
-const store = createStore(reducer);
+const store = createStore(reducers, applyMiddleware(thunk));
 
 export default store;

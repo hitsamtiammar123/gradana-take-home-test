@@ -11,6 +11,8 @@
       "@test-navigator/*":["./src/navigator/*"],
       "@test-component-container": ["./src/components/container/index"],
       "@test-component-container/*": ["./src/components/container/*"],
+      "@test-component-input": ["./src/components/input/index"],
+      "@tes-component-input/*": ["./src/components/input/*"],
       "@test-screens":["./src/screens/index"],
       "@test-screens/*":["./src/screens/*"]
     }
